@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List with 3D Background</title>
+    <link rel="stylesheet" href="moviecss.css">
+</head>
+<body>
+    <div id="background"></div>
+    <h1>Movie List</h1>
+    <form id="movieForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="genre" placeholder="Genre" required>
+        <input type="text" id="director" placeholder="Director" required>
+        <input type="number" id="year" placeholder="Release Year" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+        <button type="submit">Add Movie</button>
+    </form>
+    <div id="movieList" class="movie-list"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="moviesjava.js"></script>
+</body>
+</html>
