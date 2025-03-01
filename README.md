@@ -1,8 +1,6 @@
 # web-pages
 https://maytri315.github.io/web-pages/
-Absolutely, here's a sample README for your 3D Movie List site. 
 
----
 
 # 3D Movie List
 
